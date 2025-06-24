@@ -3,7 +3,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 
-namespace Eshop.Admin.HttpApi.Client.ConsoleTestApp;
+namespace Eshop.HttpApi.Client.ConsoleTestApp;
 
 class Program
 {

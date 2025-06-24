@@ -4,9 +4,8 @@ using System.Threading.Tasks;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Volo.Abp;
-using Eshop.Admin.HttpApi.Client.ConsoleTestApp;
 
-namespace Eshop.Admin.HttpApi.Client.ConsoleTestApp;
+namespace Eshop.HttpApi.Client.ConsoleTestApp;
 
 public class ConsoleTestAppHostedService : IHostedService
 {

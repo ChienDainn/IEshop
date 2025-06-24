@@ -1,4 +1,5 @@
 ﻿using System;
+using Eshop.Admin;
 using Microsoft.Extensions.DependencyInjection;
 using Polly;
 using Volo.Abp.Autofac;
@@ -6,11 +7,11 @@ using Volo.Abp.Http.Client;
 using Volo.Abp.Http.Client.IdentityModel;
 using Volo.Abp.Modularity;
 
-namespace Eshop.Admin.HttpApi.Client.ConsoleTestApp;
+namespace Eshop.HttpApi.Client.ConsoleTestApp;
 
 [DependsOn(
     typeof(AbpAutofacModule),
-    typeof(EshopHttpApiClientModule),
+    typeof(EshopAdminHttpApiClientModule),
     typeof(AbpHttpClientIdentityModelModule)
     )]
 public class EshopConsoleApiClientModule : AbpModule
