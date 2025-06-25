@@ -9,6 +9,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Include="ProductAttributes\ProductAttribute.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\Eshop.Domain.Shared\Eshop.Domain.Shared.csproj" />
   </ItemGroup>
 

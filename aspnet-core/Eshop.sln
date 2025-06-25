@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.14.36203.30 d17.14
+VisualStudioVersion = 17.14.36203.30
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Eshop.Domain", "src\Eshop.Domain\Eshop.Domain.csproj", "{554AD327-6DBA-4F8F-96F8-81CE7A0C863F}"
 EndProject
@@ -39,7 +39,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Eshop.DbMigrator", "src\Esh
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "admin", "admin", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "identity", "identity", "{89B3F850-6505-4F2C-98B2-26C1CF76FC90}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "auth", "auth", "{89B3F850-6505-4F2C-98B2-26C1CF76FC90}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "common", "common", "{0EE4CE52-5BA9-4B33-BBE5-88330BC79222}"
 EndProject
@@ -68,6 +68,11 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Eshop.Admin.HttpApi.Client.ConsoleTestApp", "test\Eshop.Admin.HttpApi.Client.ConsoleTestApp\Eshop.Admin.HttpApi.Client.ConsoleTestApp.csproj", "{B74948AE-8D80-6599-435F-BD3258CD44DD}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "shared", "shared", "{54A27DF2-DD36-40B6-8EA6-E509246D0E97}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ProductCategories", "ProductCategories", "{545703C9-4B9D-4232-AC82-6232C71AD2E9}"
+	ProjectSection(SolutionItems) = preProject
+		ProductCategory.cs = ProductCategory.cs
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -199,6 +204,7 @@ Global
 		{2F1EE393-4450-74DF-F392-AB91C7719465} = {D01E6A5D-867D-48D7-9EAC-C4D3D698BCC4}
 		{B74948AE-8D80-6599-435F-BD3258CD44DD} = {D01E6A5D-867D-48D7-9EAC-C4D3D698BCC4}
 		{54A27DF2-DD36-40B6-8EA6-E509246D0E97} = {04DBDB01-70F4-4E06-B468-8F87850B22BE}
+		{545703C9-4B9D-4232-AC82-6232C71AD2E9} = {AC5710C1-DBB8-4C27-8F1B-A539F8ACDB0E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {28315BFD-90E7-4E14-A2EA-F3D23AF4126F}
